@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a5826c4.css",
+    "main.js": "/static/js/main.e351084f.js",
+    "static/media/sabana.png": "/static/media/sabana.fd757e93c62bfd152390.png",
+    "index.html": "/index.html",
+    "main.0a5826c4.css.map": "/static/css/main.0a5826c4.css.map",
+    "main.e351084f.js.map": "/static/js/main.e351084f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5826c4.css",
+    "static/js/main.e351084f.js"
+  ]
+}
