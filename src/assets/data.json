@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "name": "Colonia Tovar",
+            "description": "La Colonia Tovar, fundada en 1843 por inmigrantes alemanes, ofrece un encantador ambiente alpino con arquitectura típica y gastronomía alemana en medio de las montañas de Venezuela.",
+            "category": "entertainment",
+            "picture": "tovar.png",
+            "lastUpdated": "2020-03-10T23:08:57.892Z",
+            "votes": {
+                "positive": 80,
+                "negative": 20
+            }
+        },
+        {
+            "name": "Salto Ángel",
+            "description": "La catarata más alta del mundo, con 979 metros de caída libre, en el Parque Nacional Canaima.",
+            "category": "business",
+            "picture": "angel.png",
+            "lastUpdated": "2021-02-14T23:10:19.134Z",
+            "votes": {
+                "positive": 200,
+                "negative": 120
+            }
+        },
+        {
+            "name": "Isla Margarita",
+            "description": "Conocida por sus playas de arena blanca, aguas cristalinas y vibrante vida nocturna.",
+            "category": "politics",
+            "picture": "margarita.png",
+            "lastUpdated": "2020-12-10T23:41:07.120Z",
+            "votes": {
+                "positive": 140,
+                "negative": 97
+            }
+        },
+        {
+            "name": "Parque Nacional Morrocoy",
+            "description": "Con sus manglares, cayos y aguas turquesas, es un destino popular para practicar snorkel y buceo.",
+            "category": "politics",
+            "picture": "morrocoy.png",
+            "lastUpdated": "2020-12-10T23:41:07.120Z",
+            "votes": {
+                "positive": 200,
+                "negative": 40
+            }
+        },
+        {
+            "name": "Mérida",
+            "description": "La ciudad andina ofrece acceso a la Sierra Nevada y su famoso teleférico, con vistas espectaculares.",
+            "category": "business",
+            "picture": "merida.png",
+            "lastUpdated": "2020-12-20T23:43:38.041Z",
+            "votes": {
+                "positive": 300,
+                "negative": 50
+            }
+        },
+        {
+            "name": "Los Roques",
+            "description": "Archipiélago de paradisícas islas y arrecifes de coral, perfecto para practicar deportes acuáticos y buceo.",
+            "category": "environment",
+            "picture": "roques.png",
+            "lastUpdated": "2021-02-26T23:44:50.326Z",
+            "votes": {
+                "positive": 250,
+                "negative": 120
+            }
+        }
+    ]
+}
