@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.189fb6d6.css",
-    "main.js": "/react-gh-pages/static/js/main.e351084f.js",
-    "static/media/sabana.png": "/react-gh-pages/static/media/sabana.fd757e93c62bfd152390.png",
+    "main.css": "/react-gh-pages/static/css/main.16ea8c3b.css",
+    "main.js": "/react-gh-pages/static/js/main.3035d4d8.js",
+    "static/media/sabana.png": "/react-gh-pages/static/media/sabana.9ee6b4faf79cda83b39c.png",
     "index.html": "/react-gh-pages/index.html",
-    "main.189fb6d6.css.map": "/react-gh-pages/static/css/main.189fb6d6.css.map",
-    "main.e351084f.js.map": "/react-gh-pages/static/js/main.e351084f.js.map"
+    "main.16ea8c3b.css.map": "/react-gh-pages/static/css/main.16ea8c3b.css.map",
+    "main.3035d4d8.js.map": "/react-gh-pages/static/js/main.3035d4d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.189fb6d6.css",
-    "static/js/main.e351084f.js"
+    "static/css/main.16ea8c3b.css",
+    "static/js/main.3035d4d8.js"
   ]
 }
