@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.16ea8c3b.css",
-    "main.js": "/react-gh-pages/static/js/main.7fc676bf.js",
-    "static/media/sabana.png": "/react-gh-pages/static/media/sabana.9ee6b4faf79cda83b39c.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.16ea8c3b.css.map": "/react-gh-pages/static/css/main.16ea8c3b.css.map",
-    "main.7fc676bf.js.map": "/react-gh-pages/static/js/main.7fc676bf.js.map"
+    "main.css": "/accesibility-test/static/css/main.f08e06cc.css",
+    "main.js": "/accesibility-test/static/js/main.7fc676bf.js",
+    "static/media/sabana.png": "/accesibility-test/static/media/sabana.9ee6b4faf79cda83b39c.png",
+    "index.html": "/accesibility-test/index.html",
+    "main.f08e06cc.css.map": "/accesibility-test/static/css/main.f08e06cc.css.map",
+    "main.7fc676bf.js.map": "/accesibility-test/static/js/main.7fc676bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.16ea8c3b.css",
+    "static/css/main.f08e06cc.css",
     "static/js/main.7fc676bf.js"
   ]
 }
