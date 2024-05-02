@@ -3,7 +3,7 @@
         {
             "name": "Colonia Tovar",
             "description": "La Colonia Tovar, fundada en 1843 por inmigrantes alemanes, ofrece un encantador ambiente alpino con arquitectura típica y gastronomía alemana en medio de las montañas de Venezuela.",
-            "category": "entertainment",
+            "category": "Edo. Aragua",
             "picture": "tovar.png",
             "lastUpdated": "2020-03-10T23:08:57.892Z",
             "votes": {
@@ -14,7 +14,7 @@
         {
             "name": "Salto Ángel",
             "description": "La catarata más alta del mundo, con 979 metros de caída libre, en el Parque Nacional Canaima.",
-            "category": "business",
+            "category": "Edo. Bolívar",
             "picture": "angel.png",
             "lastUpdated": "2021-02-14T23:10:19.134Z",
             "votes": {
@@ -25,7 +25,7 @@
         {
             "name": "Isla Margarita",
             "description": "Conocida por sus playas de arena blanca, aguas cristalinas y vibrante vida nocturna.",
-            "category": "politics",
+            "category": "Edo. Nueva Esparta",
             "picture": "margarita.png",
             "lastUpdated": "2020-12-10T23:41:07.120Z",
             "votes": {
@@ -36,7 +36,7 @@
         {
             "name": "Parque Nacional Morrocoy",
             "description": "Con sus manglares, cayos y aguas turquesas, es un destino popular para practicar snorkel y buceo.",
-            "category": "politics",
+            "category": "Edo. Falcón",
             "picture": "morrocoy.png",
             "lastUpdated": "2020-12-10T23:41:07.120Z",
             "votes": {
@@ -47,7 +47,7 @@
         {
             "name": "Mérida",
             "description": "La ciudad andina ofrece acceso a la Sierra Nevada y su famoso teleférico, con vistas espectaculares.",
-            "category": "business",
+            "category": "Edo. Mérida",
             "picture": "merida.png",
             "lastUpdated": "2020-12-20T23:43:38.041Z",
             "votes": {
@@ -58,7 +58,7 @@
         {
             "name": "Los Roques",
             "description": "Archipiélago de paradisícas islas y arrecifes de coral, perfecto para practicar deportes acuáticos y buceo.",
-            "category": "environment",
+            "category": "Dependencia Federal",
             "picture": "roques.png",
             "lastUpdated": "2021-02-26T23:44:50.326Z",
             "votes": {

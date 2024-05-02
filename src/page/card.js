@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import ListView from "../components/listView";
 import GridView from "../components/gridView";
-import moment from "moment";
 import { useMediaQuery } from "react-responsive";
 
 function Card({ data, view }) {
   const isMobile = useMediaQuery({ query: "(max-width: 670px)" });
-  const eyebrow = `${moment(data.lastUpdated).fromNow()} in ${data.category}`;
+  const eyebrow = `en ${data.category}`;
   const [disableButton, setDisableButton] = useState(true);
   const [buttonText, setButtonText] = useState("Votar");
   const [eyebrowText, setEyebrowText] = useState(eyebrow);
