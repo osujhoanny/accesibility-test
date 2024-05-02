@@ -206,7 +206,7 @@ hr[role="separator"] {
         var(--color-dark-background),
         var(--color-dark-background)
       ),
-    -25vw 0/160vw no-repeat url(../public/img/sabana.png);
+    -25vw 0/160vw no-repeat url(../public/media/sabana.png);
   filter: blur(1rem);
 }
 
@@ -493,7 +493,7 @@ main h2 {
           var(--color-dark-background),
           var(--color-dark-background)
         ),
-      7vw -6.5rem/115vw auto no-repeat url(../public/img/sabana.png);
+      7vw -6.5rem/115vw auto no-repeat url(../public/media/sabana.png);
   }
 
   .featured-card__content {
@@ -669,7 +669,7 @@ main h2 {
           var(--color-dark-background),
           var(--color-dark-background)
         ),
-      calc(-50vw + 650px) -6rem/105vw auto no-repeat url(../public/img/sabana.png);
+      calc(-50vw + 650px) -6rem/105vw auto no-repeat url(../public/media/sabana.png);
   }
 
   .featured-card__content {

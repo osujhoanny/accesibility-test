@@ -16,7 +16,7 @@ function Dropdown({ grid, changeGrid }) {
     <div className="dropdown">
       <button onClick={() => showDropdown()} className="btnDrop">
         {grid}
-        <img src="./img/triangle.svg" alt="triangle" width="12" />
+        <img src="./media/triangle.svg" alt="triangle" width="12" />
       </button>
       <div className={`dropdownContent ${show ? "show" : "hidden"}`}>
         <button onClick={() => changeView("Lista")}>Lista</button>

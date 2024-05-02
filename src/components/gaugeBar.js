@@ -10,7 +10,7 @@ function GaugeBar({ view, positive, negative }) {
       <div className="greenBar" style={{ width: `${totalPositives}%` }}>
         <div className="barcontent greenBarcontent">
           <img
-            src="./img/thumbs-up.svg"
+            src="./media/thumbs-up.svg"
             alt="thumbs up"
             width={viewList ? "15" : "24"}
           />
@@ -25,7 +25,7 @@ function GaugeBar({ view, positive, negative }) {
             {totalNegatives}%
           </p>
           <img
-            src="./img/thumbs-down.svg"
+            src="./media/thumbs-down.svg"
             alt="thumbs down"
             width={viewList ? "15" : "24"}
           />

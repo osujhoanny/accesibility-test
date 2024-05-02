@@ -18,7 +18,7 @@ function ListView({
   return (
     <div className="cardFullWidth">
       <div className="cardFullWidth-background"></div>
-      <img src={`./img/${data.picture}`} className="containerImage" />
+      <img src={`./media/${data.picture}`} className="containerImage" />
       <div className="cardContent">
         <div className="winningContainer">
           <div
@@ -30,9 +30,9 @@ function ListView({
             }
           >
             {dataVotesValidation() ? (
-              <img src="./img/thumbs-up.svg" alt="thumbs up" />
+              <img src="./media/thumbs-up.svg" alt="thumbs up" />
             ) : (
-              <img src="./img/thumbs-down.svg" alt="thumbs down" />
+              <img src="./media/thumbs-down.svg" alt="thumbs down" />
             )}
           </div>
         </div>
@@ -51,7 +51,7 @@ function ListView({
                   onClick={() => submitThumbsUp()}
                 >
                   <img
-                    src="./img/thumbs-up.svg"
+                    src="./media/thumbs-up.svg"
                     alt="thumbs up"
                     width="24"
                   />
@@ -61,7 +61,7 @@ function ListView({
                   onClick={() => submitThumbsDown()}
                 >
                   <img
-                    src="./img/thumbs-down.svg"
+                    src="./media/thumbs-down.svg"
                     alt="thumbs down"
                     width="24"
                   />

@@ -18,7 +18,7 @@ function gridView({
   return (
     <div className="gridCard">
       <div className="grid-background"></div>
-      <img src={`./img/${data.picture}`} className="gridcontainerImage" />
+      <img src={`./media/${data.picture}`} className="gridcontainerImage" />
       <div className="cardContent">
         <div className="winningGridContainer">
           <div
@@ -30,9 +30,9 @@ function gridView({
             }
           >
             {dataVotesValidation() ? (
-              <img src="./img/thumbs-up.svg" alt="thumbs up" />
+              <img src="./media/thumbs-up.svg" alt="thumbs up" />
             ) : (
-              <img src="./img/thumbs-down.svg" alt="thumbs down" />
+              <img src="./media/thumbs-down.svg" alt="thumbs down" />
             )}
           </div>
         </div>
@@ -51,7 +51,7 @@ function gridView({
                     onClick={() => submitThumbsUp()}
                   >
                     <img
-                      src="./img/thumbs-up.svg"
+                      src="./media/thumbs-up.svg"
                       alt="thumbs up"
                       width="15"
                     />
@@ -61,7 +61,7 @@ function gridView({
                     onClick={() => submitThumbsDown()}
                   >
                     <img
-                      src="./img/thumbs-down.svg"
+                      src="./media/thumbs-down.svg"
                       alt="thumbs down"
                       width="15"
                     />
