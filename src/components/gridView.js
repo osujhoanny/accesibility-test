@@ -37,7 +37,7 @@ function gridView({
           </div>
         </div>
         <div className="cardContentGrid">
-          <p className="cardTitleGrid">{data.name}</p>
+          <h3 className="cardTitleGrid">{data.name}</h3>
           <p className="cardSubtitleGrid">{data.description}</p>
 
           <div className="voteContainerGrid">

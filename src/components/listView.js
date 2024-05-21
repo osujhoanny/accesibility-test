@@ -37,7 +37,7 @@ function ListView({
           </div>
         </div>
         <div className="cardContentText">
-          <p className="cardTitle">{data.name}</p>
+          <h3 className="cardTitle">{data.name}</h3>
           <p className="cardSubtitle">{data.description}</p>
         </div>
         <div className="voteContainer">
