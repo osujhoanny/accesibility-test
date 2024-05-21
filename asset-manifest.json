@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/accesibility-test/static/css/main.579c438b.css",
+    "main.css": "/accesibility-test/static/css/main.ebcaf2e7.css",
     "main.js": "/accesibility-test/static/js/main.3497a734.js",
     "static/media/sabana.png": "/accesibility-test/static/media/sabana.9ee6b4faf79cda83b39c.png",
     "index.html": "/accesibility-test/index.html",
-    "main.579c438b.css.map": "/accesibility-test/static/css/main.579c438b.css.map",
+    "main.ebcaf2e7.css.map": "/accesibility-test/static/css/main.ebcaf2e7.css.map",
     "main.3497a734.js.map": "/accesibility-test/static/js/main.3497a734.js.map"
   },
   "entrypoints": [
-    "static/css/main.579c438b.css",
+    "static/css/main.ebcaf2e7.css",
     "static/js/main.3497a734.js"
   ]
 }
