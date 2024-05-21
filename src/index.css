@@ -214,6 +214,7 @@ hr[role="separator"] {
   position: relative;
   padding: 1rem;
   color: var(--color-white);
+  background: #0d0a0a;
 }
 
 .featured-card__hairline {
@@ -809,6 +810,7 @@ main h2 {
 
 .cardTitle {
   font-size: 36px;
+  background: #262020;
   color: var(--color-white);
   width: 100%;
   line-height: 1;
@@ -817,6 +819,7 @@ main h2 {
 .cardSubtitle {
   font-size: 18px;
   color: var(--color-white);
+  background: #262020;
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -890,6 +893,7 @@ main h2 {
 
 .eyebrow {
   color: white;
+  background: #262020;
   font-weight: normal;
   font-size: 15px;
   text-align: end;
