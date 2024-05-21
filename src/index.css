@@ -1,14 +1,14 @@
 :root {
   --color-green-positive: 60, 187, 180;
   --color-yellow-negative: 249, 173, 29;
-  --color-dark-background: rgba(0, 0, 0, 0.584);
-  --color-darker-background: rgba(0, 0, 0, 0.696);
+  --color-dark-background: #545454;
+  --color-darker-background: #212121;
   --color-darker-gray: rgb(30, 30, 30);
   --color-dark-gray: rgb(29, 29, 29);
-  --color-light-gray: rgba(235, 235, 235, 1);
-  --color-light-background: rgba(42, 42, 42, 0.4);
+  --color-light-gray: #f1f1f1;
+  --color-light-background: rgba(42, 42, 42, 0);
   --color-lighter-background: rgba(255, 255, 255, 0.8);
-  --color-white: rgba(255, 255, 255, 1);
+  --color-white: #f1f1f1;
 }
 
 html,
@@ -192,7 +192,7 @@ hr[role="separator"] {
   display: flex;
   width: 100%;
   height: 3rem;
-  background-color: var(--color-light-background);
+  background-color: #0d0a0a;
 }
 
 .featured-card__glass-background {
@@ -293,13 +293,13 @@ hr[role="separator"] {
 }
 
 .closing-gauge__number {
-  color: var(--color-dark-gray);
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
 .closing-gauge__desc {
-  color: var(--color-dark-gray);
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -910,13 +910,13 @@ main h2 {
 }
 
 .greenBar {
-  background-color: rgba(60, 187, 180, 0.6);
+  background-color: rgba(60, 187, 180, 1);
   height: 100%;
   padding-left: 16px;
 }
 
 .yellowBar {
-  background-color: rgba(249, 173, 29, 0.6);
+  background-color: rgba(249, 173, 29, 1);
   height: 100%;
   padding-right: 16px;
 }
