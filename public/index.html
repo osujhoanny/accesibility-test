@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html  lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>cual es tu opinion</title>
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
       rel="stylesheet"
     />
     <link href="index.css" rel="stylesheet" />
   </head>
-  <body aria-hidden="true">
+  <body>
     <nav class="nav">
       <div class="max-centered">
         <h1 class="nav__logo">¿Cual es tu opinión?</h1>
-        <button class="nav__hamburger icon-button" alt="Open Menu">
+        <button class="nav__hamburger icon-button" alt="Open Menu" aria-label="menu principal" title="menu principal">
           <svg width="25" height="20" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M0 0h25v4H0V0zm0 8h25v4H0V8zm0 8h25v4H0v-4z"
@@ -25,13 +26,13 @@
         </button>
         <ul class="nav__links">
           <li>
-            <a href="#">Temas anteriores</a>
+            <a href="#" aria-label="Temas anteriores">Temas anteriores</a>
           </li>
           <li>
-            <a href="#">¿Cómo funciona?</a>
+            <a href="#" aria-label="¿Cómo funciona?">¿Cómo funciona?</a>
           </li>
           <li>
-            <a href="#" id="openModalBtn">Iniciar sesión</a>
+            <a href="#" aria-label="Iniciar sesión" id="openModalBtn">Iniciar sesión</a>
           </li>
           <li>
             <form action="javascript:void(0)">
@@ -44,6 +45,7 @@
                 class="nav__search icon-button"
                 alt="Search"
                 type="submit"
+                aria-label="Search"
               >
                 <img src="./media/search.svg" alt="search" />
               </button>
@@ -69,7 +71,7 @@
               No es para todos... Un desafío para ir debido a su ubicación remota (Pulgar abajo) o un destino excepcional para los amantes de la naturaleza y la aventura (Pulgar arriba)
             </p>
             <p class="featured-card__more-info">
-              <a href="https://es.wikipedia.org/wiki/La_Gran_Sabana">
+              <a href="https://es.wikipedia.org/wiki/La_Gran_Sabana" aria-label="imagen">
                 <svg
                   class="featured-card__more-info-icon"
                   preserveAspectRatio
@@ -87,10 +89,10 @@
             </p>
             <p class="featured-card__cta">¿Cuál es tu veredicto?</p>
             <div class="featured-card__buttons">
-              <button class="icon-button" aria-label="thumbs up">
+              <button class="icon-button" aria-label="thumbs up"  aria-label="thumbs up">
                 <img src="./media/thumbs-up.svg" alt="thumbs up" />
               </button>
-              <button class="icon-button" aria-label="thumbs down">
+              <button class="icon-button" aria-label="thumbs down"  aria-label="thumbs down">
                 <img src="./media/thumbs-down.svg" alt="thumbs down" />
               </button>
             </div>
@@ -151,12 +153,12 @@
           </h2>
         </div>
         <div class="banner__right">
-          <button class="banner__cta">¡Cuentanos!</button>
+          <button class="banner__cta" aria-label="cuentanos!">¡Cuentanos!</button>
         </div>
       </aside>
       <hr/>
       <!-- Modal -->
-      <div id="openModalBtn" class="modal">
+      <div id="loginModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
           <h2>Iniciar Sesión</h2>
@@ -165,7 +167,7 @@
             <input type="text" id="username" name="username" required>
             <label for="password">Contraseña:</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit">Iniciar Sesión</button>
+            <button type="submit" aria-label="Iniciar sesión">Iniciar Sesión</button>
           </form>
         </div>
       </div>
@@ -173,13 +175,13 @@
         <div class="footer__links">
           <ul>
             <li>
-              <a href="#">Terminos y Condiciones</a>
+              <a href="#" aria-label="Terminos y Condiciones">Terminos y Condiciones</a>
             </li>
             <li>
-              <a href="#">Política de Privacidad</a>
+              <a href="#" aria-label="Política de Privacidad">Política de Privacidad</a>
             </li>
             <li>
-              <a href="#">Contáctanos</a>
+              <a href="#" aria-label="Contáctanos">Contáctanos</a>
             </li>
           </ul>
         </div>
@@ -187,7 +189,7 @@
           <span>Síguenos</span>
           <ul>
             <li>
-              <a href="#">
+              <a href="#" aria-label="facebook">
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M24 1.325v21.35c0 .732-.593 1.325-1.325 1.325H16.56v-9.294h3.12l.467-3.622H16.56V8.771c0-1.048.292-1.763 1.796-1.763h1.918v-3.24a25.663 25.663 0 00-2.795-.143c-2.766 0-4.659 1.688-4.659 4.788v2.671H9.691v3.622h3.128V24H1.325A1.325 1.325 0 010 22.676V1.325A1.325 1.325 0 011.325 0h21.35A1.325 1.325 0 0124 1.325z"
@@ -198,7 +200,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" aria-label="twitter">
                 <svg width="26" height="23" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M23.329 6.204c.01.23.01.458.01.687A15.182 15.182 0 01-.008 19.688c.421.05.845.075 1.27.073a10.7 10.7 0 006.627-2.289 5.335 5.335 0 01-4.984-3.704c.798.151 1.62.12 2.404-.094a5.346 5.346 0 01-4.276-5.233v-.073a5.396 5.396 0 002.413.666 5.357 5.357 0 01-1.654-7.127A15.15 15.15 0 0012.79 7.484a5.898 5.898 0 01-.135-1.217 5.336 5.336 0 019.228-3.652 10.612 10.612 0 003.392-1.29 5.368 5.368 0 01-2.351 2.955 10.811 10.811 0 003.07-.843 10.868 10.868 0 01-2.664 2.767z"

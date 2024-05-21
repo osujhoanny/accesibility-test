@@ -18,7 +18,7 @@ function ListView({
   return (
     <div className="cardFullWidth">
       <div className="cardFullWidth-background"></div>
-      <img src={`./media/${data.picture}`} className="containerImage" />
+      <img src={`./media/${data.picture}`} className="containerImage" alt="picture"/>
       <div className="cardContent">
         <div className="winningContainer">
           <div

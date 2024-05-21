@@ -18,7 +18,7 @@ function gridView({
   return (
     <div className="gridCard">
       <div className="grid-background"></div>
-      <img src={`./media/${data.picture}`} className="gridcontainerImage" />
+      <img src={`./media/${data.picture}`} className="gridcontainerImage" alt="background"/>
       <div className="cardContent">
         <div className="winningGridContainer">
           <div
